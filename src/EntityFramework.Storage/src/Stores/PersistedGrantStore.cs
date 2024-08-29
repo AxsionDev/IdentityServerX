@@ -5,16 +5,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Mappers;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
+using IdentityServerX.EntityFramework.Interfaces;
+using IdentityServerX.EntityFramework.Mappers;
+using IdentityServerX.Models;
+using IdentityServerX.Stores;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using System;
-using IdentityServer4.Extensions;
+using IdentityServerX.Extensions;
 
-namespace IdentityServer4.EntityFramework.Stores
+namespace IdentityServerX.EntityFramework.Stores
 {
     /// <summary>
     /// Implementation of IPersistedGrantStore thats uses EF.

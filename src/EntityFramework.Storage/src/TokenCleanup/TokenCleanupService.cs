@@ -5,13 +5,13 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using IdentityServer4.EntityFramework.Entities;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Options;
+using IdentityServerX.EntityFramework.Entities;
+using IdentityServerX.EntityFramework.Interfaces;
+using IdentityServerX.EntityFramework.Options;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.EntityFramework
+namespace IdentityServerX.EntityFramework
 {
     /// <summary>
     /// Helper to cleanup stale persisted grants and device codes.

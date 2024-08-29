@@ -6,14 +6,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Mappers;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
+using IdentityServerX.EntityFramework.Interfaces;
+using IdentityServerX.EntityFramework.Mappers;
+using IdentityServerX.Models;
+using IdentityServerX.Stores; 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.EntityFramework.Stores
+namespace IdentityServerX.EntityFramework.Stores
 {
     /// <summary>
     /// Implementation of IResourceStore thats uses EF.

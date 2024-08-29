@@ -4,13 +4,13 @@
 
 using System;
 using System.Threading.Tasks;
-using IdentityServer4.EntityFramework.Entities;
-using IdentityServer4.EntityFramework.Extensions;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Options;
+using IdentityServerX.EntityFramework.Entities;
+using IdentityServerX.EntityFramework.Extensions;
+using IdentityServerX.EntityFramework.Interfaces;
+using IdentityServerX.EntityFramework.Options;
 using Microsoft.EntityFrameworkCore;
 
-namespace IdentityServer4.EntityFramework.DbContexts
+namespace IdentityServerX.EntityFramework.DbContexts
 {
     /// <summary>
     /// DbContext for the IdentityServer operational data.
