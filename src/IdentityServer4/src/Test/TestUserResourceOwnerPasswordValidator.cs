@@ -3,17 +3,17 @@
 
 
 using IdentityModel;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 using System.Threading.Tasks;
 using System;
 using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.Test
+namespace IdentityServerX.Test
 {
     /// <summary>
     /// Resource owner password validator for test users
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.IResourceOwnerPasswordValidator" />
+    /// <seealso cref="IdentityServerX.Validation.IResourceOwnerPasswordValidator" />
     public class TestUserResourceOwnerPasswordValidator : IResourceOwnerPasswordValidator
     {
         private readonly TestUserStore _users;

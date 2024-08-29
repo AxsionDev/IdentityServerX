@@ -4,19 +4,19 @@
 
 using System;
 using System.Threading.Tasks;
-using IdentityServer4.Hosting;
-using IdentityServer4.Validation;
+using IdentityServerX.Hosting;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Http;
-using IdentityServer4.Extensions;
-using IdentityServer4.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace IdentityServer4.Endpoints.Results
+namespace IdentityServerX.Endpoints.Results
 {
     /// <summary>
     /// Result for a custom redirect
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointResult" />
+    /// <seealso cref="IdentityServerX.Hosting.IEndpointResult" />
     public class CustomRedirectResult : IEndpointResult
     {
         private readonly ValidatedAuthorizeRequest _request;

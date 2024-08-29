@@ -3,8 +3,8 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Validation;
+using IdentityServerX.Models;
+using IdentityServerX.Validation;
 
 namespace IdentityServer.UnitTests.Validation.EndSessionRequestValidation
 {

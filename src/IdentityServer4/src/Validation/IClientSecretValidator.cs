@@ -5,7 +5,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Validator for handling client authentication

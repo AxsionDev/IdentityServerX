@@ -4,7 +4,7 @@
 
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Handles validation of resource owner password credentials

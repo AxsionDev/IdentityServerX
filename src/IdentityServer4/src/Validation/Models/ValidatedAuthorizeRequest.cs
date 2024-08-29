@@ -6,7 +6,7 @@ using IdentityModel;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Models a validated request to the authorize endpoint.

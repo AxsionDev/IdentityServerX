@@ -4,7 +4,7 @@
 
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Validator for userinfo requests

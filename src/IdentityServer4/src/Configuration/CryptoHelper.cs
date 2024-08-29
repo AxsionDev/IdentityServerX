@@ -1,4 +1,5 @@
-﻿using IdentityModel;
+using IdentityModel;
+using IdentityServerX;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace IdentityServer4.Configuration
+namespace IdentityServerX.Configuration
 {
     /// <summary>
     /// Crypto helper

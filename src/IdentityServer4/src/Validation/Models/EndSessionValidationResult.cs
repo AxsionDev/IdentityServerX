@@ -2,12 +2,12 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Validation result for end session requests
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.ValidationResult" />
+    /// <seealso cref="IdentityServerX.Validation.ValidationResult" />
     public class EndSessionValidationResult : ValidationResult
     {
         /// <summary>

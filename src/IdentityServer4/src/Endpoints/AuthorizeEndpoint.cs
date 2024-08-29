@@ -4,17 +4,17 @@
 using System.Collections.Specialized;
 using System.Net;
 using System.Threading.Tasks;
-using IdentityServer4.Configuration;
-using IdentityServer4.Endpoints.Results;
-using IdentityServer4.Extensions;
-using IdentityServer4.Hosting;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Configuration;
+using IdentityServerX.Endpoints.Results;
+using IdentityServerX.Extensions;
+using IdentityServerX.Hosting;
+using IdentityServerX.ResponseHandling;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Endpoints
+namespace IdentityServerX.Endpoints
 {
     internal class AuthorizeEndpoint : AuthorizeEndpointBase
     {

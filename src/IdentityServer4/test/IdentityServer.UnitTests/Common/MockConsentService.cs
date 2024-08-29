@@ -6,9 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 
 namespace IdentityServer.UnitTests.Common
 {

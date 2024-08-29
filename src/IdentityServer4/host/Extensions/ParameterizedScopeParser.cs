@@ -1,4 +1,4 @@
-﻿using IdentityServer4.Validation;
+﻿using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using System;
 

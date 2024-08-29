@@ -12,9 +12,9 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityModel.Client;
 using IdentityServer.IntegrationTests.Common;
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
-using IdentityServer4.Test;
+using IdentityServerX.Configuration;
+using IdentityServerX.Models;
+using IdentityServerX.Test;
 using Xunit;
 
 namespace IdentityServer.IntegrationTests.Conformance.Basic

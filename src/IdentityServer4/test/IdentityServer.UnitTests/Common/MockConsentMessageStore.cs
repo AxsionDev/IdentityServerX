@@ -4,8 +4,8 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
+using IdentityServerX.Models;
+using IdentityServerX.Stores;
 
 namespace IdentityServer.UnitTests.Common
 {

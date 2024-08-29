@@ -3,7 +3,7 @@
 
 
 using FluentAssertions;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Validation

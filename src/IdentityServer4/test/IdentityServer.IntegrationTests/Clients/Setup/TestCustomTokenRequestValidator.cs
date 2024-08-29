@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 
 namespace IdentityServer.IntegrationTests.Clients.Setup
 {

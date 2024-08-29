@@ -4,12 +4,12 @@
 
 using System;
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using IdentityServerX.Models;
+using IdentityServerX.Stores;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Services
+namespace IdentityServerX.Services
 {
     internal class DefaultDeviceFlowInteractionService : IDeviceFlowInteractionService
     {

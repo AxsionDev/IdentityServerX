@@ -5,17 +5,17 @@
 using System;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Http;
-using IdentityServer4.Configuration;
+using IdentityServerX.Configuration;
 using System.Threading.Tasks;
-using IdentityServer4.Services;
+using IdentityServerX.Services;
 using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.Events
+namespace IdentityServerX.Events
 {
     /// <summary>
     /// The default event service
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.IEventService" />
+    /// <seealso cref="IdentityServerX.Services.IEventService" />
     public class DefaultEventService : IEventService
     {
         /// <summary>

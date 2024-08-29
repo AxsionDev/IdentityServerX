@@ -1,20 +1,20 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Validation;
+using IdentityServerX.Extensions;
+using IdentityServerX.ResponseHandling;
+using IdentityServerX.Validation;
 using System.Collections.Generic;
-using static IdentityServer4.Constants;
+using static IdentityServerX.Constants;
 
-namespace IdentityServer4.Events
+namespace IdentityServerX.Events
 {
     /// <summary>
     /// Event for successful token issuance
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="IdentityServerX.Events.Event" />
     public class TokenIssuedSuccessEvent : Event
     {
         /// <summary>

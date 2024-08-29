@@ -3,24 +3,24 @@
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Stores;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
-using IdentityServer4.Configuration;
+using IdentityServerX.Configuration;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// The authorize response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IAuthorizeResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.IAuthorizeResponseGenerator" />
     public class AuthorizeResponseGenerator : IAuthorizeResponseGenerator
     {
         /// <summary>

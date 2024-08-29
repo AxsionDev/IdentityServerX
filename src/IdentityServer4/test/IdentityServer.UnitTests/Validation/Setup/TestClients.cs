@@ -3,8 +3,8 @@
 
 
 using System.Collections.Generic;
-using IdentityServer4;
-using IdentityServer4.Models;
+using IdentityServerX;
+using IdentityServerX.Models;
 
 namespace IdentityServer.UnitTests.Validation.Setup
 {

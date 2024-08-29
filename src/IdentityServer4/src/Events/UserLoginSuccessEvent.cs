@@ -1,15 +1,16 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using static IdentityServer4.Constants;
 
-namespace IdentityServer4.Events
+using static IdentityServerX.Constants;
+
+namespace IdentityServerX.Events
 {
     /// <summary>
     /// Event for successful user authentication
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="IdentityServerX.Events.Event" />
     public class UserLoginSuccessEvent : Event
     {
         // todo: consolidate ctors in 3.0

@@ -3,7 +3,7 @@
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
+using IdentityServerX.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Text;
 
 #pragma warning disable 1591
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     public static class ValidatedAuthorizeRequestExtensions
     {

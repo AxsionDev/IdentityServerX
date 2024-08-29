@@ -3,15 +3,15 @@
 
 
 using System.Collections.Generic;
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
+using IdentityServerX.Configuration;
+using IdentityServerX.Models;
 using System.Collections.Specialized;
 using System.Security.Claims;
 using IdentityModel;
 using System.Linq;
 using System;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Base class for a validate authorize or token request

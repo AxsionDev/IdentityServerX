@@ -3,21 +3,21 @@
 
 
 using IdentityModel;
-using IdentityServer4.Events;
-using IdentityServer4.Extensions;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Events;
+using IdentityServerX.Extensions;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// The introspection response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IIntrospectionResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.IIntrospectionResponseGenerator" />
     public class IntrospectionResponseGenerator : IIntrospectionResponseGenerator
     {
         /// <summary>

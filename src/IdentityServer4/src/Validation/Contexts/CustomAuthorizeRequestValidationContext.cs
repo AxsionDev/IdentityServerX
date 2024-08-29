@@ -1,4 +1,4 @@
-﻿namespace IdentityServer4.Validation
+﻿namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Context for custom authorize request validation.

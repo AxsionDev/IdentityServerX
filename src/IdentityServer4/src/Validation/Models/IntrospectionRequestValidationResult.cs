@@ -2,17 +2,17 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Security.Claims;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Validation result for introspection request
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.ValidationResult" />
+    /// <seealso cref="IdentityServerX.Validation.ValidationResult" />
     public class IntrospectionRequestValidationResult : ValidationResult
     {
         /// <summary>

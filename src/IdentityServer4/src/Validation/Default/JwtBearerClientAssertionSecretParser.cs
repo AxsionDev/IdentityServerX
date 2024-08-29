@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.IdentityModel.Tokens.Jwt;
 using IdentityModel;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Parses a POST body for a JWT bearer client assertion

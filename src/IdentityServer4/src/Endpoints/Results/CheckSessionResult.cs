@@ -3,13 +3,13 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.Hosting;
+using IdentityServerX.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
 
-namespace IdentityServer4.Endpoints.Results
+namespace IdentityServerX.Endpoints.Results
 {
     internal class CheckSessionResult : IEndpointResult
     {

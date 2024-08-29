@@ -9,11 +9,11 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
-using IdentityServer4.Models;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using IdentityServerX;
+using IdentityServerX.Models;
+using IdentityServerX.ResponseHandling;
+using IdentityServerX.Stores;
+using IdentityServerX.Validation;
 using Xunit;
 
 namespace IdentityServer.UnitTests.ResponseHandling

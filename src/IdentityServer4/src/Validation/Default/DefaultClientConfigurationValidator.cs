@@ -1,15 +1,15 @@
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
+using IdentityServerX.Configuration;
+using IdentityServerX.Models;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Default client configuration validator
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.IClientConfigurationValidator" />
+    /// <seealso cref="IdentityServerX.Validation.IClientConfigurationValidator" />
     public class DefaultClientConfigurationValidator : IClientConfigurationValidator
     {
         private readonly IdentityServerOptions _options;

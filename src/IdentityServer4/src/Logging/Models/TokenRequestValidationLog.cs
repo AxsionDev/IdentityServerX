@@ -5,10 +5,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Validation;
+using IdentityServerX.Extensions;
+using IdentityServerX.Validation;
 
-namespace IdentityServer4.Logging.Models
+namespace IdentityServerX.Logging.Models
 {
     internal class TokenRequestValidationLog
     {

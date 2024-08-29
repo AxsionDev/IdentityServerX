@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityModel;
 using IdentityServer.UnitTests.Validation.Setup;
-using IdentityServer4;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
+using IdentityServerX;
+using IdentityServerX.Models;
+using IdentityServerX.Stores;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Validation.TokenRequest_Validation

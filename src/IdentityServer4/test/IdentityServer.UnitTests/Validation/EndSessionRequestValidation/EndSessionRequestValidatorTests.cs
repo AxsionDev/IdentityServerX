@@ -8,11 +8,11 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Validation;
+using IdentityServerX;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Validation;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Validation.EndSessionRequestValidation

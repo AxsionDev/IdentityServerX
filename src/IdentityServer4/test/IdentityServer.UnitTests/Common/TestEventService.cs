@@ -7,8 +7,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
-using IdentityServer4.Events;
-using IdentityServer4.Services;
+using IdentityServerX.Events;
+using IdentityServerX.Services;
 
 namespace IdentityServer.UnitTests.Common
 {

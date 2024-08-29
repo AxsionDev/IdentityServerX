@@ -4,7 +4,7 @@
 
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Services
+namespace IdentityServerX.Services
 {
     /// <summary>
     /// Interface for the handle generation service

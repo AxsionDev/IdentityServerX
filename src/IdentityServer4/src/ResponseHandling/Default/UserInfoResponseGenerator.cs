@@ -3,11 +3,11 @@
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Stores;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -15,12 +15,12 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// The userinfo response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IUserInfoResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.IUserInfoResponseGenerator" />
     public class UserInfoResponseGenerator : IUserInfoResponseGenerator
     {
         /// <summary>

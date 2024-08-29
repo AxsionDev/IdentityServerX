@@ -1,12 +1,12 @@
 using System;
 using System.Threading.Tasks;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Hosting
+namespace IdentityServerX.Hosting
 {
     /// <summary>
     ///     Middleware for re-writing the MTLS enabled endpoints to the standard protocol endpoints

@@ -5,9 +5,9 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using System;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 
-namespace IdentityServer4.Models
+namespace IdentityServerX.Models
 {
     /// <summary>
     /// Class describing the profile data request

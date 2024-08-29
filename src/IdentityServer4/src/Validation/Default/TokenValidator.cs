@@ -3,9 +3,9 @@
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -14,13 +14,13 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
-using IdentityServer4.Stores;
-using IdentityServer4.Configuration;
-using IdentityServer4.Logging.Models;
+using IdentityServerX.Stores;
+using IdentityServerX.Configuration;
+using IdentityServerX.Logging.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     internal class TokenValidator : ITokenValidator
     {

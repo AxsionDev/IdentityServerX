@@ -9,11 +9,11 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
-using IdentityServer4.Stores.Serialization;
+using IdentityServerX;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Stores;
+using IdentityServerX.Stores.Serialization;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Stores.Default

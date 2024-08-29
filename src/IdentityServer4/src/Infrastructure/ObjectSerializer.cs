@@ -4,7 +4,7 @@
 
 using System.Text.Json;
 
-namespace IdentityServer4
+namespace IdentityServerX
 {
     internal static class ObjectSerializer
     {

@@ -4,7 +4,7 @@
 
 using Microsoft.AspNetCore.Http;
 
-namespace IdentityServer4.Hosting
+namespace IdentityServerX.Hosting
 {
     /// <summary>
     /// The endpoint router

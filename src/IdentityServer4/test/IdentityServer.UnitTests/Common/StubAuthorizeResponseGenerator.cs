@@ -3,8 +3,8 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Validation;
+using IdentityServerX.ResponseHandling;
+using IdentityServerX.Validation;
 
 namespace IdentityServer.UnitTests.Common
 {

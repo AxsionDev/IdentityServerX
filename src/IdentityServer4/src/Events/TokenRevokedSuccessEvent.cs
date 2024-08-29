@@ -2,15 +2,15 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Models;
-using IdentityServer4.Validation;
+using IdentityServerX.Models;
+using IdentityServerX.Validation;
 
-namespace IdentityServer4.Events
+namespace IdentityServerX.Events
 {
     /// <summary>
     /// Event for successful token revocation
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="IdentityServerX.Events.Event" />
     public class TokenRevokedSuccessEvent : Event
     {
         /// <summary>

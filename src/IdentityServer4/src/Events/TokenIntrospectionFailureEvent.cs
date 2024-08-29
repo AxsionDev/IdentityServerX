@@ -2,15 +2,15 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Extensions;
+using IdentityServerX.Extensions;
 using System.Collections.Generic;
 
-namespace IdentityServer4.Events
+namespace IdentityServerX.Events
 {
     /// <summary>
     /// Event for failed token introspection
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="IdentityServerX.Events.Event" />
     public class TokenIntrospectionFailureEvent : Event
     {
         /// <summary>

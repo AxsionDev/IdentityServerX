@@ -4,17 +4,17 @@
 
 using System;
 using System.Threading.Tasks;
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
+using IdentityServerX.Configuration;
+using IdentityServerX.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Caching.Distributed;
 
-namespace IdentityServer4.Services
+namespace IdentityServerX.Services
 {
     /// <summary>
     /// The default device flow throttling service using IDistributedCache.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.IDeviceFlowThrottlingService" />
+    /// <seealso cref="IdentityServerX.Services.IDeviceFlowThrottlingService" />
     public class DistributedDeviceFlowThrottlingService : IDeviceFlowThrottlingService
     {
         private readonly IDistributedCache _cache;

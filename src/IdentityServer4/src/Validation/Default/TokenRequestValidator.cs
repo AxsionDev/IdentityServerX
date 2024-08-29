@@ -3,12 +3,12 @@
 
 
 using IdentityModel;
-using IdentityServer4.Configuration;
-using IdentityServer4.Events;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
+using IdentityServerX.Configuration;
+using IdentityServerX.Events;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Stores;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -16,10 +16,10 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IdentityServer4.Logging.Models;
+using IdentityServerX.Logging.Models;
 using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     internal class TokenRequestValidator : ITokenRequestValidator
     {

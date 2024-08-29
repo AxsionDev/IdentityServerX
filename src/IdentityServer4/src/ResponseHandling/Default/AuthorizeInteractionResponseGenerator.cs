@@ -3,22 +3,22 @@
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// Default logic for determining if user must login or consent when making requests to the authorization endpoint.
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IAuthorizeInteractionResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.IAuthorizeInteractionResponseGenerator" />
     public class AuthorizeInteractionResponseGenerator : IAuthorizeInteractionResponseGenerator
     {
         /// <summary>

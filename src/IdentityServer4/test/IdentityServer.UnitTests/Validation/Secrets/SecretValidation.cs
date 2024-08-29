@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
 using IdentityServer.UnitTests.Validation.Setup;
-using IdentityServer4;
-using IdentityServer4.Configuration;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using IdentityServerX;
+using IdentityServerX.Configuration;
+using IdentityServerX.Models;
+using IdentityServerX.Stores;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using Xunit;
 

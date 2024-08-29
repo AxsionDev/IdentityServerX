@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// Interface for introspection response generator

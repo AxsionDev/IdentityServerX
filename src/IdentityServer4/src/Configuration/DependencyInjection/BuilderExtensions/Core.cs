@@ -2,30 +2,30 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4;
-using IdentityServer4.Configuration;
-using IdentityServer4.Configuration.DependencyInjection;
-using IdentityServer4.Endpoints;
-using IdentityServer4.Events;
-using IdentityServer4.Hosting;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Stores.Serialization;
-using IdentityServer4.Validation;
+using IdentityServerX;
+using IdentityServerX.Configuration;
+using IdentityServerX.Configuration.DependencyInjection;
+using IdentityServerX.Endpoints;
+using IdentityServerX.Events;
+using IdentityServerX.Hosting;
+using IdentityServerX.ResponseHandling;
+using IdentityServerX.Services;
+using IdentityServerX.Stores;
+using IdentityServerX.Stores.Serialization;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 using System;
 using System.Linq;
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
-using static IdentityServer4.Constants;
-using IdentityServer4.Extensions;
-using IdentityServer4.Hosting.FederatedSignOut;
-using IdentityServer4.Services.Default;
+using Microsoft.AspNetCore.Authentication; 
+using IdentityServerX.Extensions;
+using IdentityServerX.Hosting.FederatedSignOut;
+using IdentityServerX.Services.Default;
+using static IdentityServerX.Constants;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -106,7 +106,7 @@ namespace Microsoft.Extensions.DependencyInjection
             where T : class, IEndpointHandler
         {
             builder.Services.AddTransient<T>();
-            builder.Services.AddSingleton(new IdentityServer4.Hosting.Endpoint(name, path, typeof(T)));
+            builder.Services.AddSingleton(new IdentityServerX.Hosting.Endpoint(name, path, typeof(T)));
 
             return builder;
         }

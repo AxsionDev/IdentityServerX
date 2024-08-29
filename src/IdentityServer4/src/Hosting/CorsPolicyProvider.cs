@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Cors.Infrastructure;
-using IdentityServer4.Configuration;
-using IdentityServer4.Configuration.DependencyInjection;
-using IdentityServer4.Services;
+using IdentityServerX.Configuration;
+using IdentityServerX.Configuration.DependencyInjection;
+using IdentityServerX.Services;
 using Microsoft.Extensions.DependencyInjection;
-using IdentityServer4.Extensions;
+using IdentityServerX.Extensions;
 
-namespace IdentityServer4.Hosting
+namespace IdentityServerX.Hosting
 {
     internal class CorsPolicyProvider : ICorsPolicyProvider
     {

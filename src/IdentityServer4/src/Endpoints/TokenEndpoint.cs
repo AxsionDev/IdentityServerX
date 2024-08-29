@@ -3,24 +3,24 @@
 
 
 using IdentityModel;
-using IdentityServer4.Endpoints.Results;
-using IdentityServer4.Events;
-using IdentityServer4.Extensions;
-using IdentityServer4.Hosting;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Endpoints.Results;
+using IdentityServerX.Events;
+using IdentityServerX.Extensions;
+using IdentityServerX.Hosting;
+using IdentityServerX.ResponseHandling;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Endpoints
+namespace IdentityServerX.Endpoints
 {
     /// <summary>
     /// The token endpoint
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointHandler" />
+    /// <seealso cref="IdentityServerX.Hosting.IEndpointHandler" />
     internal class TokenEndpoint : IEndpointHandler
     {
         private readonly IClientSecretValidator _clientValidator;

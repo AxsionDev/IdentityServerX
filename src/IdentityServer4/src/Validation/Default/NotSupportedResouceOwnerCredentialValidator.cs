@@ -4,14 +4,14 @@
 
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Default resource owner password validator (no implementation == not supported)
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.IResourceOwnerPasswordValidator" />
+    /// <seealso cref="IdentityServerX.Validation.IResourceOwnerPasswordValidator" />
     public class NotSupportedResourceOwnerPasswordValidator : IResourceOwnerPasswordValidator
     {
         private readonly ILogger _logger;

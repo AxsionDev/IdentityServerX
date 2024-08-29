@@ -5,7 +5,7 @@
 using System.Collections.Specialized;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Interface for the token request validator

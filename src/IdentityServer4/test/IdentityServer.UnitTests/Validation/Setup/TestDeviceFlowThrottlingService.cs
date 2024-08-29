@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
 
 namespace IdentityServer.UnitTests.Validation.Setup
 {

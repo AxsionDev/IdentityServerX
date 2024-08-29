@@ -2,17 +2,17 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Implementation of strict redirect URI validator that allows a random port if 127.0.0.1 is used.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.StrictRedirectUriValidator" />
+    /// <seealso cref="IdentityServerX.Validation.StrictRedirectUriValidator" />
     public class StrictRedirectUriValidatorAppAuth : StrictRedirectUriValidator
     {
         private readonly ILogger _logger;

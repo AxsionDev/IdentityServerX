@@ -4,20 +4,20 @@
 
 using System;
 using System.Threading.Tasks;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// The device authorizaiton response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IDeviceAuthorizationResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.IDeviceAuthorizationResponseGenerator" />
     public class DeviceAuthorizationResponseGenerator : IDeviceAuthorizationResponseGenerator
     {
         /// <summary>

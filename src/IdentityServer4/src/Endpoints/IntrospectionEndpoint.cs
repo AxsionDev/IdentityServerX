@@ -3,23 +3,23 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.Validation;
-using IdentityServer4.ResponseHandling;
+using IdentityServerX.Validation;
+using IdentityServerX.ResponseHandling;
 using Microsoft.Extensions.Logging;
-using IdentityServer4.Hosting;
-using IdentityServer4.Endpoints.Results;
+using IdentityServerX.Hosting;
+using IdentityServerX.Endpoints.Results;
 using Microsoft.AspNetCore.Http;
 using System.Net;
-using IdentityServer4.Services;
-using IdentityServer4.Events;
-using IdentityServer4.Extensions;
+using IdentityServerX.Services;
+using IdentityServerX.Events;
+using IdentityServerX.Extensions;
 
-namespace IdentityServer4.Endpoints
+namespace IdentityServerX.Endpoints
 {
     /// <summary>
     /// Introspection endpoint
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointHandler" />
+    /// <seealso cref="IdentityServerX.Hosting.IEndpointHandler" />
     internal class IntrospectionEndpoint : IEndpointHandler
     {
         private readonly IIntrospectionResponseGenerator _responseGenerator;

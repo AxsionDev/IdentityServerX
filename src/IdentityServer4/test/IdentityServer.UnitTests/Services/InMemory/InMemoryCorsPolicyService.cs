@@ -5,8 +5,8 @@
 using System.Collections.Generic;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Services.InMemory

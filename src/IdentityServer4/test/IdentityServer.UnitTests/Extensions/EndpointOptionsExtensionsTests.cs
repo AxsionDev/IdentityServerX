@@ -1,8 +1,8 @@
-﻿using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Hosting;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Hosting;
 using Xunit;
-using static IdentityServer4.Constants;
+using static IdentityServerX.Constants;
 
 namespace IdentityServer.UnitTests.Extensions
 {

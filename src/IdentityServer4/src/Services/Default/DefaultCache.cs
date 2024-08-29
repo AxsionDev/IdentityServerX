@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 
-namespace IdentityServer4.Services
+namespace IdentityServerX.Services
 {
     /// <summary>
     /// IMemoryCache-based implementation of the cache
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    /// <seealso cref="IdentityServer4.Services.ICache{T}" />
+    /// <seealso cref="IdentityServerX.Services.ICache{T}" />
     public class DefaultCache<T> : ICache<T>
         where T : class
     {

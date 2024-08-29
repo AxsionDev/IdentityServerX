@@ -3,11 +3,11 @@
 
 
 using IdentityModel;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Services;
+using IdentityServerX.Stores;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -16,12 +16,12 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// Default implementation of the discovery endpoint response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.IDiscoveryResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.IDiscoveryResponseGenerator" />
     public class DiscoveryResponseGenerator : IDiscoveryResponseGenerator
     {
         /// <summary>

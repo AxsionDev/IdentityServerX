@@ -1,8 +1,8 @@
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Test;
+using IdentityServerX.Models;
+using IdentityServerX.Test;
 using Microsoft.Extensions.Logging;
 
 namespace IdentityServerHost.Extensions

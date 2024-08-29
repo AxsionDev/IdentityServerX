@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace IdentityServer4.Extensions
+namespace IdentityServerX.Extensions
 {
     /// <summary>
     /// Extensions for AuthenticationProperties

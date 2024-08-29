@@ -5,12 +5,12 @@
 using IdentityModel;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Services
+namespace IdentityServerX.Services
 {
     /// <summary>
     /// Default handle generation service
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.IHandleGenerationService" />
+    /// <seealso cref="IdentityServerX.Services.IHandleGenerationService" />
     public class DefaultHandleGenerationService : IHandleGenerationService
     {
         /// <summary>

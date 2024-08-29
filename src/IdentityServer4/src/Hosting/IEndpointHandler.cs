@@ -5,7 +5,7 @@
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Hosting
+namespace IdentityServerX.Hosting
 {
     /// <summary>
     /// Endpoint handler

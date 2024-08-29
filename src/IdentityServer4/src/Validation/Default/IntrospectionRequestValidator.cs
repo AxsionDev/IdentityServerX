@@ -2,17 +2,17 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using Microsoft.Extensions.Logging;
 using System.Collections.Specialized;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// The introspection request validator
     /// </summary>
-    /// <seealso cref="IdentityServer4.Validation.IIntrospectionRequestValidator" />
+    /// <seealso cref="IdentityServerX.Validation.IIntrospectionRequestValidator" />
     internal class IntrospectionRequestValidator : IIntrospectionRequestValidator
     {
         private readonly ILogger _logger;

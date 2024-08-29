@@ -2,7 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.DataProtection;
 using IdentityModel;
@@ -10,7 +10,7 @@ using System.Text;
 using System;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Stores
+namespace IdentityServerX.Stores
 {
     /// <summary>
     /// IMessageStore implementation that uses data protection to protect message.
@@ -18,7 +18,7 @@ namespace IdentityServer4.Stores
     /// <typeparam name="TModel"></typeparam>
     public class ProtectedDataMessageStore<TModel> : IMessageStore<TModel>
     {
-        private const string Purpose = "IdentityServer4.Stores.ProtectedDataMessageStore";
+        private const string Purpose = "IdentityServerX.Stores.ProtectedDataMessageStore";
 
         /// <summary>
         /// The data protector.

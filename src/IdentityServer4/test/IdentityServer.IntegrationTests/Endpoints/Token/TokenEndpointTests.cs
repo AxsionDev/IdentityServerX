@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
-using IdentityServer4.Models;
-using IdentityServer4.Test;
+using IdentityServerX.Models;
+using IdentityServerX.Test;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.Net;

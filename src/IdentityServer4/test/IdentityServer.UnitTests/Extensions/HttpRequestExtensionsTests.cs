@@ -3,7 +3,7 @@
 
 
 using FluentAssertions;
-using IdentityServer4.Extensions;
+using IdentityServerX.Extensions;
 using Microsoft.AspNetCore.Http;
 using Xunit;
 

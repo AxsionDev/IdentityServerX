@@ -3,14 +3,14 @@
 
 using System.Net;
 using System.Threading.Tasks;
-using IdentityServer4.Configuration;
-using IdentityServer4.Endpoints.Results;
-using IdentityServer4.Hosting;
-using IdentityServer4.ResponseHandling;
+using IdentityServerX.Configuration;
+using IdentityServerX.Endpoints.Results;
+using IdentityServerX.Hosting;
+using IdentityServerX.ResponseHandling;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Endpoints
+namespace IdentityServerX.Endpoints
 {
     internal class DiscoveryKeyEndpoint : IEndpointHandler
     {

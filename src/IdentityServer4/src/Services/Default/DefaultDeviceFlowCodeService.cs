@@ -1,13 +1,13 @@
 using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Stores;
+using IdentityServerX.Models;
+using IdentityServerX.Stores;
 
-namespace IdentityServer4.Services.Default
+namespace IdentityServerX.Services.Default
 {
     /// <summary>
     /// Default wrapper service for IDeviceFlowStore, handling key hashing
     /// </summary>
-    /// <seealso cref="IdentityServer4.Services.IDeviceFlowCodeService" />
+    /// <seealso cref="IdentityServerX.Services.IDeviceFlowCodeService" />
     public class DefaultDeviceFlowCodeService : IDeviceFlowCodeService
     {
         private readonly IDeviceFlowStore _store;

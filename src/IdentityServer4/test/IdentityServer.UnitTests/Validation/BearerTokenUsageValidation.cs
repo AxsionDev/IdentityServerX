@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FluentAssertions;
 using IdentityServer.UnitTests.Common;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Http;
 using Xunit;
 

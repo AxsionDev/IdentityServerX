@@ -3,16 +3,16 @@
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Hosting;
-using IdentityServer4.ResponseHandling;
+using IdentityServerX.Extensions;
+using IdentityServerX.Hosting;
+using IdentityServerX.ResponseHandling;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Endpoints.Results
+namespace IdentityServerX.Endpoints.Results
 {
     internal class TokenResult : IEndpointResult
     {

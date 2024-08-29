@@ -5,21 +5,21 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using IdentityServer4.Hosting;
-using IdentityServer4.Validation;
+using IdentityServerX.Hosting;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Http;
-using IdentityServer4.Extensions;
-using IdentityServer4.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using IdentityServer4.Stores;
-using IdentityServer4.Models;
+using IdentityServerX.Stores;
+using IdentityServerX.Models;
 
-namespace IdentityServer4.Endpoints.Results
+namespace IdentityServerX.Endpoints.Results
 {
     /// <summary>
     /// Result for login page
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointResult" />
+    /// <seealso cref="IdentityServerX.Hosting.IEndpointResult" />
     public class LoginPageResult : IEndpointResult
     {
         private readonly ValidatedAuthorizeRequest _request;

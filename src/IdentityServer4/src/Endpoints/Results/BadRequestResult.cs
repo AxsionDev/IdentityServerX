@@ -3,11 +3,11 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.Hosting;
+using IdentityServerX.Hosting;
 using Microsoft.AspNetCore.Http;
-using IdentityServer4.Extensions;
+using IdentityServerX.Extensions;
 
-namespace IdentityServer4.Endpoints.Results
+namespace IdentityServerX.Endpoints.Results
 {
     internal class BadRequestResult : IEndpointResult
     {

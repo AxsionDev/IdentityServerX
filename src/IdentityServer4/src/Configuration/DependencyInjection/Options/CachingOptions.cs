@@ -4,7 +4,7 @@
 
 using System;
 
-namespace IdentityServer4.Configuration
+namespace IdentityServerX.Configuration
 {
     /// <summary>
     /// Caching options.

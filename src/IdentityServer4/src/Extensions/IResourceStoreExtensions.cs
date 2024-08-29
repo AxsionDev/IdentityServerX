@@ -2,14 +2,14 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 
-namespace IdentityServer4.Stores
+namespace IdentityServerX.Stores
 {
     /// <summary>
     /// Extensions for IResourceStore

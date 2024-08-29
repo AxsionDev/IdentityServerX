@@ -2,14 +2,14 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Events;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Events;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Stores
+namespace IdentityServerX.Stores
 {
     /// <summary>
     /// Client store decorator for running runtime configuration validation checks

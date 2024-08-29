@@ -4,7 +4,7 @@
 
 using System;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Models a parsed scope value.

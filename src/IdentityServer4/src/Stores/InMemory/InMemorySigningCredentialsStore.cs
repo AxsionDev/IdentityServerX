@@ -5,12 +5,12 @@
 using Microsoft.IdentityModel.Tokens;
 using System.Threading.Tasks;
 
-namespace IdentityServer4.Stores
+namespace IdentityServerX.Stores
 {
     /// <summary>
     /// Default signing credentials store
     /// </summary>
-    /// <seealso cref="IdentityServer4.Stores.ISigningCredentialStore" />
+    /// <seealso cref="IdentityServerX.Stores.ISigningCredentialStore" />
     public class InMemorySigningCredentialsStore : ISigningCredentialStore
     {
         private readonly SigningCredentials _credential;

@@ -4,15 +4,15 @@
 
 using System.Threading.Tasks;
 using System.Net;
-using IdentityServer4.Hosting;
+using IdentityServerX.Hosting;
 using Microsoft.AspNetCore.Http;
 
-namespace IdentityServer4.Endpoints.Results
+namespace IdentityServerX.Endpoints.Results
 {
     /// <summary>
     /// Result for a raw HTTP status code
     /// </summary>
-    /// <seealso cref="IdentityServer4.Hosting.IEndpointResult" />
+    /// <seealso cref="IdentityServerX.Hosting.IEndpointResult" />
     public class StatusCodeResult : IEndpointResult
     {
         /// <summary>

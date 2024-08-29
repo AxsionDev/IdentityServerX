@@ -3,23 +3,23 @@
 
 
 using IdentityModel;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
-using IdentityServer4.Validation;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Stores;
+using IdentityServerX.Validation;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// The default token response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.ITokenResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.ITokenResponseGenerator" />
     public class TokenResponseGenerator : ITokenResponseGenerator
     {
         /// <summary>

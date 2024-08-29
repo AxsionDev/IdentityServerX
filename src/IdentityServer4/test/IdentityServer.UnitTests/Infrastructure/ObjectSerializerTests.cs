@@ -3,7 +3,7 @@
 
 using System;
 using FluentAssertions;
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using Xunit;
 
 namespace IdentityServer.UnitTests.Infrastructure
@@ -17,7 +17,7 @@ namespace IdentityServer.UnitTests.Infrastructure
         [Fact]
         public void Can_be_deserialize_message()
         {
-            Action a = () => IdentityServer4.ObjectSerializer.FromString<Message<ErrorMessage>>("{\"created\":0, \"data\": {\"error\": \"error\"}}");
+            Action a = () => IdentityServerX.ObjectSerializer.FromString<Message<ErrorMessage>>("{\"created\":0, \"data\": {\"error\": \"error\"}}");
             a.Should().NotThrow();
         }
     }

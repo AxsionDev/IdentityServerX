@@ -2,22 +2,22 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
 using System.Threading.Tasks;
-using IdentityServer4.Configuration;
+using IdentityServerX.Configuration;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Stores
+namespace IdentityServerX.Stores
 {
     /// <summary>
     /// Caching decorator for IResourceStore
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    /// <seealso cref="IdentityServer4.Stores.IResourceStore" />
+    /// <seealso cref="IdentityServerX.Stores.IResourceStore" />
     public class CachingResourceStore<T> : IResourceStore
         where T : IResourceStore
     {

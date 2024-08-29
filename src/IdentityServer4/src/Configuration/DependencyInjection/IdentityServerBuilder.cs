@@ -5,7 +5,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace IdentityServer4.Configuration
+namespace IdentityServerX.Configuration
 {
     /// <summary>
     /// IdentityServer helper class for DI configuration

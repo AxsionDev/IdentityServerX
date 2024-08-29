@@ -4,7 +4,7 @@
 
 using Microsoft.AspNetCore.Authentication;
 
-namespace IdentityServer4.Hosting.LocalApiAuthentication
+namespace IdentityServerX.Hosting.LocalApiAuthentication
 {
     /// <summary>
     /// Options for local API authentication

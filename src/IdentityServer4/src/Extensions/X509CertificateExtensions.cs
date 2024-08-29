@@ -4,7 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 using IdentityModel;
 
-namespace IdentityServer4.Extensions
+namespace IdentityServerX.Extensions
 {
     /// <summary>
     /// Extensions methods for X509Certificate2

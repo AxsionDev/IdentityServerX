@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
 using Microsoft.Extensions.Logging;
-using static IdentityServer4.IdentityServerConstants;
+using static IdentityServerX.IdentityServerConstants;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Validator for an X.509 certificate based client secret using the thumbprint

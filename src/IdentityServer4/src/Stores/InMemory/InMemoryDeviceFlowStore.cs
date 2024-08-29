@@ -5,14 +5,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 
-namespace IdentityServer4.Stores
+namespace IdentityServerX.Stores
 {
     /// <summary>
     /// In-memory device flow store
     /// </summary>
-    /// <seealso cref="IdentityServer4.Stores.IDeviceFlowStore" />
+    /// <seealso cref="IdentityServerX.Stores.IDeviceFlowStore" />
     public class InMemoryDeviceFlowStore : IDeviceFlowStore
     {
         private readonly List<InMemoryDeviceAuthorization> _repository = new List<InMemoryDeviceAuthorization>();

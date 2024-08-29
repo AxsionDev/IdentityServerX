@@ -3,20 +3,20 @@
 
 
 using IdentityModel;
-using IdentityServer4.Configuration;
-using IdentityServer4.Extensions;
-using IdentityServer4.Models;
-using IdentityServer4.Services;
-using IdentityServer4.Stores;
+using IdentityServerX.Configuration;
+using IdentityServerX.Extensions;
+using IdentityServerX.Models;
+using IdentityServerX.Services;
+using IdentityServerX.Stores;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using IdentityServer4.Logging.Models;
+using IdentityServerX.Logging.Models;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     internal class AuthorizeRequestValidator : IAuthorizeRequestValidator
     {

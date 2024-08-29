@@ -4,12 +4,12 @@
 
 using System.Collections.Generic;
 
-namespace IdentityServer4.Events
+namespace IdentityServerX.Events
 {
     /// <summary>
     /// Event for denied consent.
     /// </summary>
-    /// <seealso cref="IdentityServer4.Events.Event" />
+    /// <seealso cref="IdentityServerX.Events.Event" />
     public class ConsentDeniedEvent : Event
     {
         /// <summary>

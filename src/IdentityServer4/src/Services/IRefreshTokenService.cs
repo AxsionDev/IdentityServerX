@@ -2,12 +2,12 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using IdentityServer4.Validation;
+using IdentityServerX.Validation;
 
-namespace IdentityServer4.Services
+namespace IdentityServerX.Services
 {
     /// <summary>
     /// Implements refresh token creation and validation

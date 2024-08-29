@@ -2,15 +2,15 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.Services;
+using IdentityServerX.Services;
 using System.Threading.Tasks;
-using IdentityServer4.Events;
+using IdentityServerX.Events;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
-using IdentityServer4.Stores;
-using IdentityServer4.Models;
+using IdentityServerX.Stores;
+using IdentityServerX.Models;
 
-namespace IdentityServer4.Validation
+namespace IdentityServerX.Validation
 {
     /// <summary>
     /// Validates a client secret using the registered secret validators and parsers

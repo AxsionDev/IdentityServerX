@@ -3,16 +3,16 @@
 
 
 using System.Threading.Tasks;
-using IdentityServer4.Validation;
-using IdentityServer4.Stores;
+using IdentityServerX.Validation;
+using IdentityServerX.Stores;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.ResponseHandling
+namespace IdentityServerX.ResponseHandling
 {
     /// <summary>
     /// Default revocation response generator
     /// </summary>
-    /// <seealso cref="IdentityServer4.ResponseHandling.ITokenRevocationResponseGenerator" />
+    /// <seealso cref="IdentityServerX.ResponseHandling.ITokenRevocationResponseGenerator" />
     public class TokenRevocationResponseGenerator : ITokenRevocationResponseGenerator
     {
         /// <summary>

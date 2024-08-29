@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
-using IdentityServer4.Models;
-using IdentityServer4.Test;
+using IdentityServerX.Models;
+using IdentityServerX.Test;
 using Microsoft.Extensions.Logging;
 
 namespace IdentityServer.IntegrationTests.Clients.Setup

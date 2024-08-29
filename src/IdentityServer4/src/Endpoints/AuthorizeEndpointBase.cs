@@ -6,20 +6,20 @@ using System.Collections.Specialized;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using IdentityModel;
-using IdentityServer4.Configuration;
-using IdentityServer4.Endpoints.Results;
-using IdentityServer4.Events;
-using IdentityServer4.Extensions;
-using IdentityServer4.Hosting;
-using IdentityServer4.Logging.Models;
-using IdentityServer4.Models;
-using IdentityServer4.ResponseHandling;
-using IdentityServer4.Services;
-using IdentityServer4.Validation;
+using IdentityServerX.Configuration;
+using IdentityServerX.Endpoints.Results;
+using IdentityServerX.Events;
+using IdentityServerX.Extensions;
+using IdentityServerX.Hosting;
+using IdentityServerX.Logging.Models;
+using IdentityServerX.Models;
+using IdentityServerX.ResponseHandling;
+using IdentityServerX.Services;
+using IdentityServerX.Validation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace IdentityServer4.Endpoints
+namespace IdentityServerX.Endpoints
 {
     internal abstract class AuthorizeEndpointBase : IEndpointHandler
     {

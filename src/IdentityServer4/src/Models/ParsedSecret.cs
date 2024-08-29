@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace IdentityServer4.Models
+namespace IdentityServerX.Models
 {
     /// <summary>
     /// Represents a secret extracted from the HttpContext
