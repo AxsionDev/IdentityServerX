@@ -4,10 +4,10 @@
       <TargetFramework>net6.0</TargetFramework>
 
     <PackageId>IdentityServerX.Storage</PackageId>
-    <Description>Storage interfaces and models for IdentityServer4</Description>
-    <Authors>Upgraded by Petar Minev, created by Brock Allen;Dominick Baier</Authors>
+    <Description>Storage interfaces and models for IdentityServerX</Description>
+    <Authors>Upgraded by Axsion team, originated by Brock Allen;Dominick Baier</Authors>
 
-    <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer</PackageTags>
+    <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;IdentityServerX</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
     <PackageProjectUrl>https://github.com/IdentityServer/IdentityServer4</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
