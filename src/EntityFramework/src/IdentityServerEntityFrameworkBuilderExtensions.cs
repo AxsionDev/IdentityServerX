@@ -1,16 +1,16 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
-using IdentityServer4.EntityFramework.DbContexts;
-using IdentityServer4.EntityFramework.Interfaces;
-using IdentityServer4.EntityFramework.Services;
-using IdentityServer4.EntityFramework.Stores;
-using IdentityServer4.Stores;
+using IdentityServerX.EntityFramework.DbContexts;
+using IdentityServerX.EntityFramework.Interfaces;
+using IdentityServerX.EntityFramework.Services;
+using IdentityServerX.EntityFramework.Stores;
+using IdentityServerX.Stores;
 using System;
-using IdentityServer4.EntityFramework.Options;
-using IdentityServer4.EntityFramework;
-using IdentityServer4.EntityFramework.Storage;
+using IdentityServerX.EntityFramework.Options;
+using IdentityServerX.EntityFramework;
+using IdentityServerX.EntityFramework.Storage;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 

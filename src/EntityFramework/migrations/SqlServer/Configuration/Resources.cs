@@ -3,9 +3,9 @@
 
 
 using IdentityModel;
-using IdentityServer4.Models;
+using IdentityServerX.Models;
 using System.Collections.Generic;
-using static IdentityServer4.IdentityServerConstants;
+using static IdentityServerX.IdentityServerConstants;
 
 namespace IdentityServerHost.Configuration
 {
