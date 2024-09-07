@@ -5,7 +5,7 @@
 
     <PackageId>IdentityServerX.Storage</PackageId>
     <Description>Storage interfaces and models for IdentityServerX</Description>
-    <Authors>Upgraded by Axsion team, originated by Brock Allen;Dominick Baier</Authors>
+    <Authors>Upgraded by Axsion team, originated by Brock Allen;Dominick Baier</Authors> 
       <PackageVersion>1.0.0</PackageVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;IdentityServerX</PackageTags>
@@ -33,7 +33,9 @@
   <ItemGroup>
     <None Include="../../../icon.jpg" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
-
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
   <ItemGroup>
     <PackageReference Include="IdentityModel" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />

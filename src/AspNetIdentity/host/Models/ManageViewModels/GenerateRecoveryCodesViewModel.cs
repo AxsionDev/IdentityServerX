@@ -1,4 +1,4 @@
-﻿namespace IdentityServer4.Models.ManageViewModels
+﻿namespace IdentityServerX.Models.ManageViewModels
 {
     public class GenerateRecoveryCodesViewModel
     {

@@ -5,9 +5,9 @@
 using System;
 using System.Linq;
 using IdentityModel;
-using IdentityServer4;
+using IdentityServerX;
 using IdentityServerX.AspNetIdentity;
-using IdentityServer4.Configuration;
+using IdentityServerX.Configuration;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 
