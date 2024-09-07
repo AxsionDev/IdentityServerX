@@ -6,17 +6,18 @@
     <PackageId>IdentityServerX.Storage</PackageId>
     <Description>Storage interfaces and models for IdentityServerX</Description>
     <Authors>Upgraded by Axsion team, originated by Brock Allen;Dominick Baier</Authors>
-
+      <PackageVersion>1.0.0</PackageVersion>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;IdentityServerX</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
-    <PackageProjectUrl>https://github.com/IdentityServer/IdentityServer4</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/pminev1/IdentityServerX</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/IdentityServer/IdentityServer4/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/pminev1/IdentityServerX/releases</PackageReleaseNotes>
 
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
-
+ 
     <AssemblyOriginatorKeyFile>../../../key.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition="'$(OS)' != 'Windows_NT'">true</PublicSign>
