@@ -7,6 +7,7 @@
     <Description>EntityFramework persistence layer for IdentityServerX</Description>
     <Authors>Brock Allen;Dominick Baier;Scott Brady</Authors>
     <AssemblyName>IdentityServerX.EntityFramework</AssemblyName>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;EntityFramework</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
     <PackageProjectUrl>https://github.com/IdentityServer/IdentityServerX</PackageProjectUrl>
@@ -31,7 +32,9 @@
   <ItemGroup>
     <None Include="../../../icon.jpg" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
-
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
   <ItemGroup>
     <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2416" />
     <PackageReference Include="IdentityServerX.EntityFramework.Storage" Version="0.0.0-alpha.0.2415" />
