@@ -7,7 +7,7 @@
     <Description>ASP.NET Core Identity Integration for IdentityServerX</Description>
     <Authors>Upgraded by Axsion Team, created by Brock Allen;Dominick Baier</Authors>
     <AssemblyName>IdentityServerX.AspNetIdentity</AssemblyName>
-      <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;ASP.NET Identity</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
     <PackageProjectUrl>https://github.com/IdentityServer/IdentityServer4</PackageProjectUrl>
@@ -53,7 +53,7 @@
     
   <ItemGroup>
     
-    <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2416" />
+    <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2424" />
     
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>
