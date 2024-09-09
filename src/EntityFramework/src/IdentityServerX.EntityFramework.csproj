@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
 
     <Description>EntityFramework persistence layer for IdentityServerX</Description>
-    <Authors>Brock Allen;Dominick Baier;Scott Brady</Authors>
+    <Authors>Upgraded By Axsion Team Created By Brock Allen;Dominick Baier;Scott Brady</Authors>
     <AssemblyName>IdentityServerX.EntityFramework</AssemblyName>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;EntityFramework</PackageTags>
@@ -36,8 +36,8 @@
         <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2416" />
-    <PackageReference Include="IdentityServerX.EntityFramework.Storage" Version="0.0.0-alpha.0.2415" />
+    <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2424" />
+    <PackageReference Include="IdentityServerX.EF.Storage" Version="0.0.0-alpha.0.2423" />
     
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>
