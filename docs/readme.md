@@ -1,6 +1,6 @@
-# IdentityServer4 documentation
+# IdentityServerX documentation
 
-The folder contains the documentation for identityserver4.
+The folder contains the documentation for identityserverX.
 
 We are using [Read the docs](https://readthedocs.org/) to host the documentation and the rendered version
 can be found [here](https://identityserver4.readthedocs.io).
