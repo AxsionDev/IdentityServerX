@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IdentityModel" />
+    <PackageReference Include="IdentityModel" Version="6.2.0" />
   </ItemGroup>
 
 </Project>

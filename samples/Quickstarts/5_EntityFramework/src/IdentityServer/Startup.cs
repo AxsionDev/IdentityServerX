@@ -24,7 +24,7 @@ namespace IdentityServer
             services.AddControllersWithViews();
 
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
-            const string connectionString = @"Data Source=(LocalDb)\MSSQLLocalDB;database=IdentityServerX.Quickstart.EntityFramework-4.0.0;trusted_connection=yes;";
+            const string connectionString = @"Data Source=.;Initial Catalog=isxTest1;User ID=sa;Password=Peter01!;MultipleActiveResultSets=true";
             
             var builder = services.AddIdentityServer()
                 .AddTestUsers(TestUsers.Users)
