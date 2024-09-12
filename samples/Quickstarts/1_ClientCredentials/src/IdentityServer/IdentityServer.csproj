@@ -1,11 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+      <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="IdentityServer4" />
+    <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2424" />
     <PackageReference Include="Serilog.AspNetCore" />
   </ItemGroup>
 </Project>
