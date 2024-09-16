@@ -36,8 +36,8 @@
         <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2424" />
-    <PackageReference Include="IdentityServerX.EF.Storage" Version="0.0.0-alpha.0.2423" />
+    <PackageReference Include="IdentityServerX" Version="1.0.2439" />
+    <PackageReference Include="IdentityServerX.EF.Storage" Version="1.0.2440" />
     
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>
