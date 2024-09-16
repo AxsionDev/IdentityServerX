@@ -6,7 +6,7 @@
     <PackageId>IdentityServerX.Storage</PackageId>
     <Description>Storage interfaces and models for IdentityServerX</Description>
     <Authors>Upgraded by Axsion team, originated by Brock Allen;Dominick Baier</Authors> 
-      <PackageVersion>1.0.0</PackageVersion>
+      <PackageVersion>1.0.0.0</PackageVersion> 
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;IdentityServerX</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
@@ -24,10 +24,14 @@
 
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-
+    <PropertyGroup>
+        <MinVerVersion>1.0.0.0</MinVerVersion>
+        <MinVerAutoIncrement>Major</MinVerAutoIncrement>
+    </PropertyGroup>
   <PropertyGroup>
     <ContinuousIntegrationBuild Condition="'$(TF_BUILD)' == 'true'">True</ContinuousIntegrationBuild>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">True</ContinuousIntegrationBuild>
+    <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
 
   <ItemGroup>
