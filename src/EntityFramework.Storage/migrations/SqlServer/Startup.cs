@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 using IdentityServerX.EntityFramework.Storage;
 using Microsoft.EntityFrameworkCore;
+using IdentityServerX.EntityFramework.DbContexts;
+using System.Linq;
 
 namespace SqlServer
 {
@@ -30,8 +32,9 @@ namespace SqlServer
             });
         }
 
-        public void Configure(IApplicationBuilder app)
+        public void Configure(IApplicationBuilder app, ConfigurationDbContext ctx)
         {
+            var t = ctx.Clients.Count();
         }
     }
 }

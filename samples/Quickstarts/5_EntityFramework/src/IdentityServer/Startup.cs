@@ -25,19 +25,30 @@ namespace IdentityServer
 
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             const string connectionString = @"Data Source=.;Initial Catalog=isxTest1;User ID=sa;Password=Peter01!;MultipleActiveResultSets=true";
-            
+
+            services
+             .AddDbContext<PersistedGrantDbContext>(
+                 options => options.UseSqlServer(connectionString));
+
+            services
+                     .AddDbContext<ConfigurationDbContext>(
+                         options => options.UseSqlServer(connectionString));
+
+
+
             var builder = services.AddIdentityServer()
-                .AddTestUsers(TestUsers.Users)
-                .AddConfigurationStore(options =>
-                {
-                    options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
-                        sql => sql.MigrationsAssembly(migrationsAssembly));
-                })
-                .AddOperationalStore(options =>
-                {
-                    options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
-                        sql => sql.MigrationsAssembly(migrationsAssembly));
-                });
+               .AddConfigurationStore(options =>
+               {
+                   options.ConfigureDbContext = contextBuilder => contextBuilder.UseSqlServer(connectionString, sql => sql.MigrationsAssembly(migrationsAssembly));
+               })
+               .AddOperationalStore(options =>
+               {
+                   options.ConfigureDbContext = contextBuilder => contextBuilder.UseSqlServer(connectionString, sql => sql.MigrationsAssembly(migrationsAssembly));
+
+                   // this enables automatic token cleanup. this is optional. 
+                   options.EnableTokenCleanup = true;
+                   options.TokenCleanupInterval = 30;
+               });
 
             builder.AddDeveloperSigningCredential();
 
@@ -68,7 +79,7 @@ namespace IdentityServer
                 });
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, PersistedGrantDbContext configContext)
         {
             // this will do the initial DB population
             InitializeDatabase(app);

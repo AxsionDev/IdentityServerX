@@ -1,48 +1,42 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-      <TargetFramework>net6.0</TargetFramework>
-
+    <TargetFramework>net6.0</TargetFramework>
     <PackageId>IdentityServerX.Storage</PackageId>
     <Description>Storage interfaces and models for IdentityServerX</Description>
-    <Authors>Upgraded by Axsion team, originated by Brock Allen;Dominick Baier</Authors> 
-      <PackageVersion>1.0.0.0</PackageVersion> 
+    <Authors>Upgraded by Axsion team, originated by Brock Allen;Dominick Baier</Authors>
+    <PackageVersion>2.0.0.0</PackageVersion>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>OAuth2;OAuth 2.0;OpenID Connect;Security;Identity;IdentityServer;IdentityServerX</PackageTags>
     <PackageIcon>icon.jpg</PackageIcon>
     <PackageProjectUrl>https://github.com/pminev1/IdentityServerX</PackageProjectUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageReleaseNotes>https://github.com/pminev1/IdentityServerX/releases</PackageReleaseNotes>
-
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
- 
     <AssemblyOriginatorKeyFile>../../../key.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition="'$(OS)' != 'Windows_NT'">true</PublicSign>
-
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-    <PropertyGroup>
-        <MinVerVersion>1.0.0.0</MinVerVersion>
-        <MinVerAutoIncrement>Major</MinVerAutoIncrement>
-    </PropertyGroup>
+  <PropertyGroup>
+    <MinVerVersion>2.0.0.0</MinVerVersion>
+    <MinVerAutoIncrement>Major</MinVerAutoIncrement>
+  </PropertyGroup>
   <PropertyGroup>
     <ContinuousIntegrationBuild Condition="'$(TF_BUILD)' == 'true'">True</ContinuousIntegrationBuild>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">True</ContinuousIntegrationBuild>
     <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="../../../icon.jpg" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
-    <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath="\" />
-    </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="IdentityModel" />
-    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="7.0.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
 </Project>

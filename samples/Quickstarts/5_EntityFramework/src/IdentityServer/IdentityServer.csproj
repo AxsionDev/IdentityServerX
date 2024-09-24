@@ -6,7 +6,7 @@
   
   <ItemGroup>
 
-    <PackageReference Include="IdentityServerX.EF" Version="0.0.0-alpha.0.2429" />
+    <PackageReference Include="IdentityServerX.EF" Version="1.0.2442" />
 
     <PackageReference Include="Serilog.AspNetCore" />
 
