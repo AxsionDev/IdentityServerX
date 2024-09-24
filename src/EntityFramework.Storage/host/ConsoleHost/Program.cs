@@ -13,7 +13,7 @@ namespace ConsoleHost
     {
         static  void Main(string[] args)
         {
-            var connectionString = "Data Source=.;Initial Catalog=isxTest1;User ID=sa;Password=Peter01!;MultipleActiveResultSets=true";
+            var connectionString = "";
 
             //simpleTest(connectionString);
 
