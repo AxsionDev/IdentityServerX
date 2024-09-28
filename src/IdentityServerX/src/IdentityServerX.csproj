@@ -26,7 +26,10 @@
     <PublicSign Condition="'$(OS)' != 'Windows_NT'">true</PublicSign>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
-
+    <PropertyGroup>
+        <MinVerVersion>2.0.0.0</MinVerVersion>
+        <MinVerAutoIncrement>Major</MinVerAutoIncrement>
+    </PropertyGroup>
   <PropertyGroup>
     <ContinuousIntegrationBuild Condition="'$(TF_BUILD)' == 'true'">True</ContinuousIntegrationBuild>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">True</ContinuousIntegrationBuild>

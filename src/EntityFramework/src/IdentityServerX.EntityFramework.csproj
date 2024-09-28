@@ -28,7 +28,10 @@
     <ContinuousIntegrationBuild Condition="'$(TF_BUILD)' == 'true'">True</ContinuousIntegrationBuild>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">True</ContinuousIntegrationBuild>
   </PropertyGroup>
-
+    <PropertyGroup>
+        <MinVerVersion>2.0.0.0</MinVerVersion>
+        <MinVerAutoIncrement>Major</MinVerAutoIncrement>
+    </PropertyGroup>
   <ItemGroup>
     <None Include="../../../icon.jpg" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
@@ -37,7 +40,7 @@
     </ItemGroup>
   <ItemGroup>
     <PackageReference Include="IdentityServerX" Version="1.0.2439" />
-    <PackageReference Include="IdentityServerX.EF.Storage" Version="1.0.2440" />
+    <PackageReference Include="IdentityServerX.EF.Storage" Version="2.0.0" />
     
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" />
   </ItemGroup>
