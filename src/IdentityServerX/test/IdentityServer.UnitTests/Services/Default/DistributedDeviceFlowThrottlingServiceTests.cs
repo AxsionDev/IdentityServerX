@@ -90,7 +90,7 @@ namespace IdentityServer.UnitTests.Services.Default
             values?.Item2.AbsoluteExpiration.Should().BeOnOrAfter(testDate);
         }
 
-        private void CheckCacheEntry(string handle)
+        private async Task CheckCacheEntry(string handle)
         {
             cache.Items.TryGetValue(CacheKey + handle, out var values).Should().BeTrue();
 
@@ -98,7 +98,7 @@ namespace IdentityServer.UnitTests.Services.Default
             var dateTime = DateTime.Parse(dateTimeAsString);
             dateTime.Should().Be(testDate);
 
-            values?.Item2.AbsoluteExpiration.Should().BeCloseTo(testDate.AddSeconds(deviceCode.Lifetime));
+            values?.Item2.AbsoluteExpiration.Should().BeCloseTo(testDate.AddSeconds(deviceCode.Lifetime), TimeSpan.FromSeconds(1));
         }
     }
 

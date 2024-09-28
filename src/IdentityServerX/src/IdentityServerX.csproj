@@ -44,7 +44,7 @@
     </ItemGroup>
   <ItemGroup>
     <PackageReference Include="IdentityModel" Version="7.0.0" />
-    <PackageReference Include="IdentityServerX.Storage" Version="1.0.0" />
+    <PackageReference Include="IdentityServerX.Storage" Version="2.0.0" />
 
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect" Version="6.36.0" />
