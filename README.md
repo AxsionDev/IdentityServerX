@@ -1,5 +1,5 @@
 ## About IdentityServerX (ISX)
-[<img align="right" width="100px" src="https://identityserverx.io/hs-fs/hubfs/IdentityServerX_Logo.png?width=50&height=50&name=IdentityServerX_Logo.png" />](https://github.com/AxsionDev/IdentityServerX)
+[<img align="right" width="50px" src="https://identityserverx.io/hs-fs/hubfs/IdentityServerX_Logo.png?width=50&height=50&name=IdentityServerX_Logo.png" />](https://github.com/AxsionDev/IdentityServerX)
 
 # Identity Server X
 
