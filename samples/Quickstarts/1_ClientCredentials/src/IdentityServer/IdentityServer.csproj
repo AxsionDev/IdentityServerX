@@ -5,7 +5,7 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <PackageReference Include="IdentityServerX" Version="0.0.0-alpha.0.2424" />
+    <PackageReference Include="IdentityServerX" Version="2.0.0" />
     <PackageReference Include="Serilog.AspNetCore" />
   </ItemGroup>
 </Project>
